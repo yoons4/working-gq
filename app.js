@@ -4,8 +4,9 @@ const app        =   express();
 const session  	 =   require('express-session')
 const path       =   require('path');
 //configuring the database
-const dbConfig   =   { url: 'mongodb://map:world@node10917-geoquiz.us.reclaim.cloud/geoquiz'};
+//const dbConfig   =   { url: 'mongodb://map:world@node10917-geoquiz.us.reclaim.cloud/geoquiz'};
 //const dbConfig = {url: 'mongodb://localhost:27017/geoquiz'};
+const dbConfig = {url: 'https://canvas.spu.edu/api/v1/courses/geoquiz'};
 const mongoose   =   require('mongoose');
 const compression=   require('compression')
 // const https			 =	 require('https');

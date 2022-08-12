@@ -1,7 +1,8 @@
 
 const MongoClient = require('mongodb').MongoClient;
 
-const url = 'mongodb://map:world@node10917-geoquiz.us.reclaim.cloud/geoquiz';
+//const url = 'mongodb://map:world@node10917-geoquiz.us.reclaim.cloud/geoquiz';
+const url = 'https://canvas.spu.edu/api/v1/courses/geoquiz';
 const dbName = "geoquiz";
 var bcrypt = require('bcrypt');
 var data = require('./data/countryDatabase.json');
